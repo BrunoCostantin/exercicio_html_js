@@ -1,9 +1,9 @@
 const form = document.getElementById("form-deposito")
 const botao = document.getElementById("btn-enviar");
-botao.disable = true
 
 form.addEventListener("submit", function (e) {
     e.preventDefault();
+    validaFormulario()
 })
 
 function validaFormulario() {
